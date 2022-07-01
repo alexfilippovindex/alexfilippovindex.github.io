@@ -1,0 +1,48 @@
+@font-face {
+  font-family: "ABCDiatypeSemi-Mono-Regular-Trial";
+  src: url("./ABCDiatypeSemi-Mono-Regular-Trial.woff2") format("woff2");
+}
+
+nav, .offcanvas-header {
+  height: 64px;
+  border-bottom: 1px solid #EBEBEB;
+}
+
+.btn {
+  border-radius: 0px;
+}
+
+.navbar-toggler {
+  border: none;
+  box-shadow: none !important;
+  padding-bottom: 10.5px;
+  padding-top: 10.5px;
+}
+
+.navbar-brand {
+  font-size: 16px;
+}
+
+* {
+  font-size: 14px;
+  font-family: 'ABCDiatypeSemi-Mono-Regular-Trial' !important;
+}
+
+.nav-link {
+  margin-right: 16px;
+}
+
+.nav-link, .navbar-brand {
+  color: #000 !important;
+}
+
+.offcanvas {
+  width: 100% !important;
+  transition: transform .0s ease-in-out !important;
+  border-width: 0px !important;
+}
+
+.offcanvas-header {
+  padding-left: 10.5px !important;
+  padding-right: 21px !important;
+}
